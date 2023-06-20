@@ -32,3 +32,10 @@ You can browse the apis at <http://localhost:3000>
 }'`
 
 <img alt="Screenshot of Get All Request" height="500" src="./doc/PostCallStudent.png" width="800"/>
+
+
+#### *Request URL for Get All Student
+
+`curl --location 'localhost:3000/student'`
+
+<img alt="Screenshot of Get All Request" height="500" src="./doc/GetStudents.png" width="800"/>
