@@ -1,6 +1,6 @@
 # EasyNotes Application
 
-Build a Restful CRUD API for a simple Note-Taking application using Node.js, Express and MongoDB.
+Build a Restful API for Online Tuition system  using Node.js, Express and MongoDB. In this application user can register course and course can have multiple students.
 
 ## Steps to Setup
 
@@ -17,3 +17,18 @@ node server.js
 ```
 
 You can browse the apis at <http://localhost:3000>
+
+
+
+## API usage
+
+#### *Request URL for Saving Student
+
+`curl --location 'localhost:3000/student' \
+--header 'Content-Type: application/json' \
+--data '{
+    "name":"Ali Ahmed",
+    "age":22
+}'`
+
+<img alt="Screenshot of Get All Request" height="500" src="./doc/PostCallStudent.png" width="800"/>
