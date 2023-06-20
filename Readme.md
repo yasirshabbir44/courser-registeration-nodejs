@@ -2,6 +2,16 @@
 
 Build a Restful API for Online Tuition system  using Node.js, Express and MongoDB. In this application user can register course and course can have multiple students.
 
+### Technology used
+* NodeJS
+* Express
+* MongoDB
+* Mongeese
+* Bycrypt
+* JWT
+* JIO validation
+
+
 ## Steps to Setup
 
 1. Install dependencies
