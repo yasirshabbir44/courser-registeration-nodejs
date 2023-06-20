@@ -22,6 +22,18 @@ You can browse the apis at <http://localhost:3000>
 
 ## API usage
 
+#### *Request URL for Registration or Signup User
+
+`curl --location 'localhost:3000/signup' \
+--header 'Content-Type: application/json' \
+--data '{
+"name":"Yasir Shabbir",
+"username":"yasir123",
+"password":"abc123abc"
+}'`
+<img alt="Screenshot of Get All Request" height="500" src="./doc/Signup.png" width="800"/>
+
+
 #### *Request URL for Saving Student
 
 `curl --location 'localhost:3000/student' \
