@@ -33,6 +33,18 @@ You can browse the apis at <http://localhost:3000>
 }'`
 <img alt="Screenshot of Get All Request" height="500" src="./doc/Signup.png" width="800"/>
 
+#### *Request URL for Login
+
+`curl --location 'localhost:3000/login' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username":"yasir123",
+     "password":"abc123abc"
+}'`
+
+<img alt="Screenshot of Get All Request" height="500" src="./doc/login.png" width="800"/>
+
+
 
 #### *Request URL for Saving Student
 
