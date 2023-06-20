@@ -58,6 +58,18 @@ You can browse the apis at <http://localhost:3000>
 
 <img alt="Screenshot of Get All Request" height="500" src="./doc/AdminSignup.png" width="800"/>
 
+#### *Request URL for ADMIN Login
+
+`curl --location 'localhost:3000/login-admin' \
+--header 'Content-Type: application/json' \
+--data '{
+    "username":"yasirAdmin",
+     "password":"abc123abc"
+}''`
+
+<img alt="Screenshot of Get All Request" height="500" src="./doc/admin-login.png" width="800"/>
+
+
 
 #### *Request URL for Saving Student
 
