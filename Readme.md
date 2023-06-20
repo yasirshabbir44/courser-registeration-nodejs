@@ -1,4 +1,4 @@
-# EasyNotes Application
+# Online Backend Tuition Managment Application
 
 Build a Restful API for Online Tuition system  using Node.js, Express and MongoDB. In this application user can register course and course can have multiple students.
 
