@@ -32,7 +32,7 @@ You can browse the apis at <http://localhost:3000>
 
 ## API usage
 
-#### *Request URL for Registration or Signup User
+* Request URL for Registration or Signup User
 
 `curl --location 'localhost:3000/signup' \
 --header 'Content-Type: application/json' \
@@ -43,7 +43,8 @@ You can browse the apis at <http://localhost:3000>
 }'`
 <img alt="Screenshot of Get All Request" height="500" src="./doc/Signup.png" width="800"/>
 
-#### *Request URL for Login
+
+* Request URL for Login
 
 `curl --location 'localhost:3000/login' \
 --header 'Content-Type: application/json' \
@@ -56,7 +57,7 @@ You can browse the apis at <http://localhost:3000>
 
 
 
-#### *Request URL for Registration or Signup for ADMIN User
+* Request URL for Registration or Signup for ADMIN User
 
 `curl --location 'localhost:3000/signup-admin' \
 --header 'Content-Type: application/json' \
@@ -68,7 +69,8 @@ You can browse the apis at <http://localhost:3000>
 
 <img alt="Screenshot of Get All Request" height="500" src="./doc/AdminSignup.png" width="800"/>
 
-#### *Request URL for ADMIN Login
+
+* Request URL for ADMIN Login
 
 `curl --location 'localhost:3000/login-admin' \
 --header 'Content-Type: application/json' \
@@ -81,7 +83,7 @@ You can browse the apis at <http://localhost:3000>
 
 
 
-#### *Request URL for Saving Student
+* Request URL for Saving Student
 
 `curl --location 'localhost:3000/student' \
 --header 'Content-Type: application/json' \
@@ -93,7 +95,7 @@ You can browse the apis at <http://localhost:3000>
 <img alt="Screenshot of Get All Request" height="500" src="./doc/PostCallStudent.png" width="800"/>
 
 
-#### *Request URL for Get All Student
+* Request URL for Get All Student
 
 `curl --location 'localhost:3000/student'`
 
