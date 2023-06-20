@@ -46,6 +46,19 @@ You can browse the apis at <http://localhost:3000>
 
 
 
+#### *Request URL for Registration or Signup for ADMIN User
+
+`curl --location 'localhost:3000/signup-admin' \
+--header 'Content-Type: application/json' \
+--data '{
+"name":"Yasir Shabbir Admin",
+"username":"yasirAdmin",
+"password":"abc123abc"
+}'`
+
+<img alt="Screenshot of Get All Request" height="500" src="./doc/AdminSignup.png" width="800"/>
+
+
 #### *Request URL for Saving Student
 
 `curl --location 'localhost:3000/student' \
